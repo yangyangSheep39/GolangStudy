@@ -86,7 +86,7 @@
 
 ## Golang中的注释类型
 
-Golang支持C语言风格的/**/块注释,也支持C++风格的//行注释 行注释更通用,块注释主要针对与<font color="red">包</font>的详细说明或者屏蔽<font color="red">大块的代码</font>
+Golang支持C语言风格的`/**/`块注释,也支持C++风格的`//`行注释 行注释更通用,块注释主要针对与<font color="red">包</font>的详细说明或者屏蔽<font color="red">大块的代码</font>
 
 1. 行注释
 
