@@ -22,10 +22,10 @@
 
 # Golang的执行流程分析
 
-> 如果是对源码编译后再执行,Golang的执行流程如下
-> ![go的执行流程-编译后.png](.\picture\go的执行流程-编译后.png)
-> 如果是对源码直接执行`go run`,Golang的执行流程如下
-> ![go的执行流程-编译后.png](.\picture\go的执行流程-编译后.png)
+> 如果是对源码编译后再执行,Golang的执行流程如下  
+> ![go的执行流程-编译后.png](.\picture\go的执行流程-编译后.png)  
+> 如果是对源码直接执行`go run`,Golang的执行流程如下  
+> ![go的执行流程-未编译.png](.\picture\go的执行流程-未编译-gorun.png)  
 > 前者执行速度快,后者执行速度慢
 
 ## 两种执行流程的方式区别
