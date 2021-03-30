@@ -15,5 +15,5 @@ This Golang Study Note
 [Golang的执行流程分析](./基础篇/2.Go的基本结构说明和HelloWorld程序开发快速入门/Go的基本结构说明和HelloWorld程序开发快速入门.md#Golang的执行流程分析)  
 [编译和运行的说明](./基础篇/2.Go的基本结构说明和HelloWorld程序开发快速入门/Go的基本结构说明和HelloWorld程序开发快速入门.md#编译和运行的说明)  
 [Go程序开发的注意事项](./基础篇/2.Go的基本结构说明和HelloWorld程序开发快速入门/Go的基本结构说明和HelloWorld程序开发快速入门.md#Go程序开发的注意事项)  
-[Golang的常用转义字符(escape char)](./基础篇/2.Go的基本结构说明和HelloWorld程序开发快速入门/Go的基本结构说明和HelloWorld程序开发快速入门.md#Golang的常用转义字符(escape-char))  
+[Golang的常用转义字符escape-char](./基础篇/2.Go的基本结构说明和HelloWorld程序开发快速入门/Go的基本结构说明和HelloWorld程序开发快速入门.md#Golang的常用转义字符escape-char)  
 [Golang的注释-comment](./基础篇/2.Go的基本结构说明和HelloWorld程序开发快速入门/Go的基本结构说明和HelloWorld程序开发快速入门.md#Golang的注释-comment)  
