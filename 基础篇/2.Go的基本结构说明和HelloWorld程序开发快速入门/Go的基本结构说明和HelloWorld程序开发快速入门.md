@@ -1,8 +1,8 @@
 # Go的程序开发和基本结构说明
 
-> 程序结构
-> ![程序结构.png](./picture/程序结构.png)
-> 对于上图的说明
+> 程序结构  
+> ![程序结构.png](./picture/程序结构.png)  
+> 对于上图的说明  
 
 - Golang文件的后缀是go  
 - package  
@@ -16,9 +16,9 @@
     表示调用fmt包的函数Println输出`Hello World`
 
 > 通过 `go build`命令对该go文件进行编译,生成 .exe文件  
-> 编译后会得到一个.exe文件 在运行该文件即可
-> ![编译执行go文件.png](./picture/编译执行go文件.png)
-> 注意:通过 `go run` 命令可以直接运行 `hello.go`直接执行源代码,类似于执行一个脚本文件的形式
+> 编译后会得到一个.exe文件 在运行该文件即可  
+> ![编译执行go文件.png](./picture/编译执行go文件.png)  
+> 注意:通过 `go run` 命令可以直接运行 `hello.go`直接执行源代码,类似于执行一个脚本文件的形式  
 
 # Golang的执行流程分析
 
