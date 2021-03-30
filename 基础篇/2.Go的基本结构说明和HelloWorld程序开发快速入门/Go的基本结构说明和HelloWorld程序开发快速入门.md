@@ -2,6 +2,7 @@
 
 > 程序结构
 > ![程序结构.png](.\picture\程序结构.png)
+> ![程序结构2.png](./picture/程序结构.png)
 > 对于上图的说明
 
 - Golang文件的后缀是go  
