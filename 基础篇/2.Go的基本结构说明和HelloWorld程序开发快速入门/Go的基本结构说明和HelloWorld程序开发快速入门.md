@@ -1,7 +1,6 @@
 # Go的程序开发和基本结构说明
 
 > 程序结构
-> ![程序结构.png](.\picture\程序结构.png)
 > ![程序结构2.png](./picture/程序结构.png)
 > 对于上图的说明
 
@@ -18,15 +17,15 @@
 
 > 通过 `go build`命令对该go文件进行编译,生成 .exe文件  
 > 编译后会得到一个.exe文件 在运行该文件即可
-> ![编译执行go文件.png](.\picture\编译执行go文件.png)
+> ![编译执行go文件.png](./picture/编译执行go文件.png)
 > 注意:通过 `go run` 命令可以直接运行 `hello.go`直接执行源代码,类似于执行一个脚本文件的形式
 
 # Golang的执行流程分析
 
 > 如果是对源码编译后再执行,Golang的执行流程如下  
-> ![go的执行流程-编译后.png](.\picture\go的执行流程-编译后.png)  
+> ![go的执行流程-编译后.png](./picture/go的执行流程-编译后.png)  
 > 如果是对源码直接执行`go run`,Golang的执行流程如下  
-> ![go的执行流程-未编译.png](.\picture\go的执行流程-未编译-gorun.png)  
+> ![go的执行流程-未编译.png](./picture/go的执行流程-未编译-gorun.png)  
 > 前者执行速度快,后者执行速度慢
 
 ## 两种执行流程的方式区别
