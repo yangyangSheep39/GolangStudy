@@ -1,6 +1,6 @@
 # GolangStudy
 
-This Golang Study Note
+This is Golang Study Note Directory
 
 ## Table of Contents
 
@@ -22,3 +22,6 @@ This Golang Study Note
 ### 3.DOS介绍以及常用命令
 
 [DOS](./基础篇/3.DOS介绍以及常用命令/DOS.md#DOS)  
+
+### 3.DOS介绍以及常用命令
+
