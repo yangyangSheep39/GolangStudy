@@ -92,14 +92,47 @@ Golang支持C语言风格的`/**/`块注释,也支持C++风格的`//`行注释 �
 
 2. 块注释(多行注释)
 
-### 正确的注释风格
+# Golang规范的代码风格
+
+## 正确的注释和注释风格
 
 1. Go官方推荐使用</font color="red">行注释</font>来注释整个方法的语句
 
-正确的缩进和空白
+## 正确的缩进和空白
 
 1. 使用一次tab操作,实现缩进,默认整体向右移动,使用shift+tab整体想坐移
 
-2. 或者使用 `gofmt` 来进行格式化
+2. 或者使用 `cmd` -> `gofmt xx.go` 来进行格式化(仅仅输出,需要使用`gofmt -w xx.go`格式化并且写入)
 
 3. 运算符两边习惯性各加一个空格: 2 + 4 * 5
+
+## 代码风格
+
+```go
+//go语言的设计者认为最好一个问题尽量只有一个解决方法
+//这种风格是go语言所接受的
+package main
+import "fmt"
+func main() {
+    fmt.Println("Hello World!!")
+} 
+//go语言不允许像下面这样写,是错误的
+package main
+import "fmt"
+func main() 
+{
+    fmt.Println("Hello World!!")
+} 
+```
+
+## 行长约定
+
+一样最长不超过80个字符,超过的请使用换行展示,尽量保持格式优雅  
+
+```go
+//go可以使用逗号换行的方式  或者使用转义字符换行
+fmt.Println("ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+"vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv","hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",)
+```
