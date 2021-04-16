@@ -23,5 +23,17 @@ This is Golang Study Note Directory
 
 [DOS](./基础篇/3.DOS介绍以及常用命令/DOS.md#DOS)  
 
-### 3.DOS介绍以及常用命令
+### 4.Golang变量
 
+[概念](./基础篇/4.Golang变量/Golang变量.md#概念)  
+[变量使用的基本步骤](./基础篇/4.Golang变量/Golang变量.md#变量使用的基本步骤)  
+[变量的使用注意事项和细节](./基础篇/4.Golang变量/Golang变量.md#变量的使用注意事项和细节)  
+[变量在代码运行中的变化](./基础篇/4.Golang变量/Golang变量.md#变量在代码运行中的变化)  
+[变量的三种声明方式](./基础篇/4.Golang变量/Golang变量.md#变量的三种声明方式)  
+[变量的声明,初始化和赋值](./基础篇/4.Golang变量/Golang变量.md#变量的声明,初始化和赋值)  
+[程序中+号的使用](./基础篇/4.Golang变量/Golang变量.md#程序中+号的使用)  
+
+### 5.Golang的数据类型
+
+[整数类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#整数类型)  
+[浮点类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#浮点类型)  
