@@ -2,6 +2,27 @@
 
 This is Golang Study Note Directory
 
+## 拓展链接
+
+[流行度排行](https://github.com/speedwheel/awesome-go-web-frameworks/blob/master/README.md#popularity)  
+[beego](https://beego.me/products)  
+[echo](https://echo.labstack.com/)  
+[gin go社区文档](https://learnku.com/docs/gin-gonic/2019)  
+[看云gin文档](https://www.kancloud.cn/shuangdeyu/gin_book/949418)  
+[gin快速使用](https://www.jianshu.com/p/98965b3ff638)  
+[gin-admin-vue](https://www.gin-vue-admin.com/docs/gorm)  
+[官网](https://golang.org/dl/)  
+[中文官网](https://go-zh.org/pkg/)  
+[go常用库](https://github.com/jobbole/awesome-go-cn)  
+
+## 查看版本号
+
+`go version`
+
+## 查看env
+
+`go env`
+
 ## Table of Contents
 
 ### 1.Go的特性和快速体验
