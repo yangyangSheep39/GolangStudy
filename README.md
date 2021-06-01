@@ -58,3 +58,4 @@ This is Golang Study Note Directory
 
 [整数类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#整数类型)  
 [浮点类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#浮点类型)  
+[字符类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#字符类型)  
