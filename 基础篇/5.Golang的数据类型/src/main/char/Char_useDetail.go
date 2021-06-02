@@ -1,5 +1,6 @@
 package main
 
+
 // import "fmt"
 // import "unsafe"
 //上述的引入包方式不够简洁
@@ -11,7 +12,7 @@ import (
  * @Author: yangyangSheep
  * @Date: 2021-06-01 15:31:19
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2021-06-01 17:28:05
+ * @LastEditTime: 2021-06-02 17:43:04
  */
  func main() {
 	var c1 byte = 'a' 

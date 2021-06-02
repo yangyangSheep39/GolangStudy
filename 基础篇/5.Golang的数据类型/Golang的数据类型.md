@@ -47,7 +47,7 @@
 
 ### 整数的使用细节
 
-[整数的使用细节代码示例](./src/main/useDetailToInteger.go)  
+[整数的使用细节代码示例](./src/main/integer/Integer_useDetail.go)  
 
 1. Golang的整数类型分为:**有符号**和**无符号**,int/uint的大小和系统有关
 2. Golang的整型默认声明为**int型**
@@ -61,7 +61,7 @@ Golang的浮点类型可以表示一个小数,比如123.4,7.8,0.12等
 
 ### 浮点类型分类
 
-[浮点数的使用细节代码示例](./src/main/useDetailToFloating.go)  
+[浮点数的使用细节代码示例](./src/main/float/Floating_useDetail.go)  
 
 > 单精度和双精度主要的区别在于表示的范围和精度不一样
 
@@ -93,7 +93,7 @@ Golang的浮点类型可以表示一个小数,比如123.4,7.8,0.12等
 >> 也就是说对于传统的字符串是由字符组成的  
 >> 而Go的字符串不同，它是由字节组成的(Go官方将string归属到基本数据类型)  
 
-[字符类型的基本使用代码示例](./src/main/Char_useDetail.go)  
+[字符类型的基本使用代码示例](./src/main/char/Char_useDetail.go)  
 
 ### 代码说明
 
@@ -121,6 +121,8 @@ Golang的浮点类型可以表示一个小数,比如123.4,7.8,0.12等
 
 ## 布尔类型
 
+[布尔类型的使用细节代码示例](./src/main/bool/Bool_useDetail.go)  
+
 ### 基本介绍
 
 1. 布尔类型也叫bool类型,bool类型数据只允许取值true和false(不可以用0或者非0的整数替代false,和C语言不一样)  
@@ -132,6 +134,7 @@ Golang的浮点类型可以表示一个小数,比如123.4,7.8,0.12等
 
 ## 字符串类型
 
+> [布尔类型的使用细节代码示例](./src/main/string/string_useDetail.go)  
 字符串就是一串固定长度的字符连接起来的字符序列. Go的字符串是由单个字节连接起来的,Go语言的字符串的字节使用UTF-8编码标识Unicode文本  
 
 ### 使用细节

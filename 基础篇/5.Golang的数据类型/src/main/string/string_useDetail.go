@@ -9,7 +9,7 @@ import (
  * @Author: yangyangSheep
  * @Date: 2021-06-02 14:30:40
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2021-06-02 16:28:12
+ * @LastEditTime: 2021-06-02 17:43:38
  */
  func main() {
 	//string的基本使用
