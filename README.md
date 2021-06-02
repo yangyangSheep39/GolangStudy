@@ -2,7 +2,17 @@
 
 This is Golang Study Note Directory
 
+## 查看版本号
+
+`go version`
+
+## 查看env
+
+`go env`
+
 ## 拓展链接
+
+### web框架
 
 [流行度排行](https://github.com/speedwheel/awesome-go-web-frameworks/blob/master/README.md#popularity)  
 [beego](https://beego.me/products)  
@@ -15,13 +25,46 @@ This is Golang Study Note Directory
 [中文官网](https://go-zh.org/pkg/)  
 [go常用库](https://github.com/jobbole/awesome-go-cn)  
 
-## 查看版本号
+### 拉不下来包
 
-`go version`
+```Go
+export GOPATH=/usr/local/go/bin
+export GOPROXY=https://goproxy.io
+export PATH=$PATH:$GOPATH
+export GO111MODULE=on
+```
 
-## 查看env
+### 开启module
 
-`go env`
+go env -w GO111MODULE=on
+
+### 设置代理
+
+go env -w GOPROXY=https://goproxy.io,direct
+
+### 微服务框架
+
+go-kit
+
+go micro
+
+[go-zero](https://go-zero.dev/cn/)  
+
+### 常用网址
+
+[go基础知识](http://www.topgoer.com)  
+[go基础知识v1](https://chai2010.cn/advanced-go-programming-book/ch5-web/ch5-03-middleware.html)  
+[go基础知识v2---micro](https://www.qfgolang.com/?special=go-microweifuwukuangjia&pid=2650)  
+[菜鸟GO](https://www.runoob.com/go/go-tutorial.html)  
+[文档和技术论坛](https://learnku.com/go)  
+[gomod 详细使用](https://www.jianshu.com/p/760c97ff644c)  
+[go官网库](https://golang.org/pkg/)  
+[go官方pkg中文](https://studygolang.com/static/pkgdoc/main.html)  
+[github对pgk的使用例子](https://github.com/astaxie/gopkg)  
+
+### go mod使用
+
+> ![go mod使用.png](./source/picture/go%20mod使用.jpg)  
 
 ## Table of Contents
 

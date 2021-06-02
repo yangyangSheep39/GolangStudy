@@ -9,7 +9,7 @@ import (
  * @Author: yangyangSheep
  * @Date: 2021-06-02 14:30:40
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2021-06-02 16:02:59
+ * @LastEditTime: 2021-06-02 16:28:12
  */
  func main() {
 	//string的基本使用
@@ -57,5 +57,4 @@ import (
 	"hello" + "world" +
 	"hello" + "world" + "hello" + "world"
 	fmt.Println("str5= ",str5)
-
 }	

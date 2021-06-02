@@ -1,10 +1,3 @@
-/*
- * @Description: 
- * @Author: yangyangSheep
- * @Date: 2021-04-16 09:52:22
- * @LastEditors: yangyangSheep
- * @LastEditTime: 2021-04-16 10:30:55
- */
 package main
 
 import "fmt"
@@ -13,7 +6,7 @@ import "fmt"
  * @Author: yangyangSheep
  * @Date: 2021-04-16 09:52:22
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2021-04-16 09:58:12
+ * @LastEditTime: 2021-06-02 16:11:31
  */
 func main() {
 	 //该区域的数值可以在同一类型范围内不断变化
