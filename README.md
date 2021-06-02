@@ -36,11 +36,15 @@ export GO111MODULE=on
 
 ### 开启module
 
+```Go
 go env -w GO111MODULE=on
+```
 
 ### 设置代理
 
+```Go
 go env -w GOPROXY=https://goproxy.io,direct
+```
 
 ### 微服务框架
 
