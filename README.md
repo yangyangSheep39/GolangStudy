@@ -106,3 +106,4 @@ go env -w GOPROXY=https://goproxy.io,direct
 [字符类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#字符类型)  
 [布尔类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#布尔类型)  
 [字符串类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#字符串类型)  
+[基本数据类型默认值](./基础篇/5.Golang的数据类型/Golang的数据类型.md#基本数据类型默认值)  
