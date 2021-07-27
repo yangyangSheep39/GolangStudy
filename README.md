@@ -107,3 +107,8 @@ go env -w GOPROXY=https://goproxy.io,direct
 [布尔类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#布尔类型)  
 [字符串类型](./基础篇/5.Golang的数据类型/Golang的数据类型.md#字符串类型)  
 [基本数据类型默认值](./基础篇/5.Golang的数据类型/Golang的数据类型.md#基本数据类型默认值)  
+
+### 6.Golang的数据类型转换
+
+[Golang的基本数据类型相互转换](./基础篇/6.Golang的基本数据相互转换/Golang的基本数据相互转换.md#Golang的基本数据类型相互转换)  
+[基本数据类型转string类型](./基础篇/6.Golang的基本数据相互转换/Golang的基本数据相互转换.md#基本数据类型和string类型的转换)  

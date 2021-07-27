@@ -1,0 +1,30 @@
+{
+    "cSpell.enableFiletypes": [
+        "bat",
+        "clojure",
+        "diff",
+        "dockercompose",
+        "dockerfile",
+        "git-rebase",
+        "go",
+        "go.mod",
+        "go.sum",
+        "gohtml",
+        "gotemplate",
+        "groovy",
+        "ignore",
+        "log",
+        "makefile",
+        "ooxml",
+        "pip-requirements",
+        "shellscript",
+        "spring-boot-properties",
+        "spring-boot-properties-yaml",
+        "sql",
+        "vue",
+        "vue-html",
+        "vue-postcss",
+        "xml"
+    ],
+    "cSpell.language": "en,en-GB,en-US"
+}
