@@ -10,7 +10,7 @@ import (
  * @Author: yangyangSheep
  * @Date: 2021-07-27 16:33:58
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2021-07-27 17:19:57
+ * @LastEditTime: 2022-01-24 16:10:41
  */
 func main() {
 	var num1 int = 99
@@ -39,7 +39,7 @@ func main() {
 	fmt.Printf("str type %T str=%q \n",str,str)
 
 	// 'f' 数字按照常规格式输出 'e' 按照科学计数法输出
-	//10 表示小数位保留10位 64 表示这个小鼠是float64
+	//10 表示小数位保留10位 64 表示这个小数是float64
 	str = strconv.FormatFloat(num2,'f',10,64) 
 	fmt.Printf("str type %T str=%q \n",str,str)
 	str = strconv.FormatFloat(num2,'e',10,64) 
