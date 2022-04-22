@@ -9,7 +9,7 @@ import(
  * @Author: yangyangSheep
  * @Date: 2022-04-22 14:36:18
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2022-04-22 15:33:27
+ * @LastEditTime: 2022-04-22 16:17:13
  */
 func main()  {
 	//基本数据类型在内存的布局
@@ -24,4 +24,6 @@ func main()  {
 	fmt.Printf("ptr=%v\n",ptr)
 	fmt.Println("ptr的地址=",&ptr)
 	fmt.Printf("ptr指向的值=%v\n",*ptr)
+	*ptr = 100
+	fmt.Printf("指针赋值后i的值=%v\n",i)
 }
