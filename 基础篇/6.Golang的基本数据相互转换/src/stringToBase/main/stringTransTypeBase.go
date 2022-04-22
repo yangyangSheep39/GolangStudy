@@ -10,7 +10,7 @@ import (
  * @Author: yangyangSheep
  * @Date: 2021-07-27 16:33:58
  * @LastEditors: yangyangSheep
- * @LastEditTime: 2022-01-24 16:26:38
+ * @LastEditTime: 2022-04-22 14:09:19
  */
 func main() {
 	var str string = "true"
@@ -32,4 +32,19 @@ func main() {
 	n2 = int(n1)
 	fmt.Printf("n1 type %T n1=%v \n",n1,n1)
 	fmt.Printf("n2 type %T n2=%v \n",n2,n2)
+
+	
+	var str3 string = "123.456"
+	var f1 float64
+	f1, _ =strconv.ParseFloat(str3,64)
+	fmt.Printf("f1 type %T f1=%v \n",f1,f1)
+
+	//注意事项
+	var str4 string = "hello"
+	var f2 float64
+	var f3 float64 = 11
+	f2, _ =strconv.ParseFloat(str4,64)
+	fmt.Printf("f2 type %T f2=%v \n",f2,f2)
+	f3, _ =strconv.ParseFloat(str4,64)
+	fmt.Printf("f3 type %T f3=%v \n",f3,f3)
 }
