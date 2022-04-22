@@ -66,6 +66,10 @@ go env -w GOPROXY=https://goproxy.io,direct
 
 ### go mod使用
 
+```Go
+go mod init [moduleName](sheep.com/base/v?)
+```
+
 > ![go mod使用.png](./source/picture/go%20mod使用.jpg)  
 
 ## Table of Contents
