@@ -118,3 +118,5 @@ go mod init [moduleName](sheep.com/base/v?)
 [基本数据类型转string类型](./基础篇/6.Golang的基本数据相互转换/Golang的数据类型相互转换.md#基本数据类型和string类型的转换)  
 
 ### 7.指针及其内存布局
+
+[指针基本介绍](./基础篇/7.指针及其内存布局/指针及其内存布局.md#指针)  
